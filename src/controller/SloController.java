@@ -8,6 +8,7 @@ public class SloController {
 	private boolean biggerInt;
 	private Scanner myScanner;
 	private boolean DeathtoFakeMetal = true;
+	private int EndAll = 1;
 	
 void Start()
 {
@@ -42,6 +43,15 @@ void Start()
 	{
 		System.out.println("You broke it");
 	}
+if(EndAll > 6)
+{
+	System.out.println("Wow you played till you won didnt you");
+}
+else
+{
+	EndAll ++;
+}
+	
 KickBack();
 }
 public void KickBack()
